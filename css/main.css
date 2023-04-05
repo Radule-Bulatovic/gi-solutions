@@ -2583,7 +2583,7 @@ html[xmlns] .slides {
   opacity: 0.6;
 }
 
-.page_slider #myVideo {
+.page_slider .myVideo {
   display: block;
   height: auto;
   left: 0;
@@ -2594,7 +2594,7 @@ html[xmlns] .slides {
 }
 
 @media (max-width: 1199px) {
-  .page_slider #myVideo {
+  .page_slider .myVideo {
     width: auto;
   }
 }
