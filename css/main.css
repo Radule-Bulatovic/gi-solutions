@@ -22920,21 +22920,25 @@ button.gm-ui-hover-effect {
   }
 }
 
-#box_wrapper
-  > section:nth-child(2)
-  > div
-  > ul
-  > li.cover-image.flex-active-slide
-  > video {
-  height: 100%;
-  object-position: -11rem 0%;
+@media (max-width: 700px) {
+  #box_wrapper
+    > section:nth-child(2)
+    > div
+    > ul
+    > li.cover-image.flex-active-slide
+    > video {
+    height: 100%;
+    object-position: -11rem 0%;
+  }
 }
 
-#box_wrapper
-  > section:nth-child(2)
-  > div
-  > ul
-  > li.cover-image.flex-active-slide
-  > video {
-  height: 100%;
+@media (max-width: 1200px) {
+  #box_wrapper
+    > section:nth-child(2)
+    > div
+    > ul
+    > li.cover-image.flex-active-slide
+    > video {
+    height: 100%;
+  }
 }
