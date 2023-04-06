@@ -20736,7 +20736,7 @@ a.logo .logo-text {
 
 @media (max-width: 767px) {
   a.logo .logo-text {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -22649,7 +22649,7 @@ button.gm-ui-hover-effect {
 }
 
 .page_footer .widget_bloginfo a.logo {
-  margin-bottom: 15px;
+  margin-bottom: 95px;
   margin-top: 0;
 }
 
