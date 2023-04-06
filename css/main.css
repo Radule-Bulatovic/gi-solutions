@@ -16197,7 +16197,7 @@ filters
 .custom-div > .container {
   position: absolute;
   left: 50%;
-  transform: translate(-50% ,-10%);
+  transform: translate(-50%, -10%);
 }
 
 .item-steps {
@@ -22918,4 +22918,23 @@ button.gm-ui-hover-effect {
     align-items: center;
     display: flex;
   }
+}
+
+#box_wrapper
+  > section:nth-child(2)
+  > div
+  > ul
+  > li.cover-image.flex-active-slide
+  > video {
+  height: 100%;
+  object-position: -11rem 0%;
+}
+
+#box_wrapper
+  > section:nth-child(2)
+  > div
+  > ul
+  > li.cover-image.flex-active-slide
+  > video {
+  height: 100%;
 }
