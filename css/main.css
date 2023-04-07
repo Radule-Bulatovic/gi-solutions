@@ -1728,6 +1728,7 @@ h6 small {
 
 .owl-carousel .owl-item img {
   -webkit-transform-style: preserve-3d;
+  height: 15rem;
 }
 
 .owl-carousel .owl-nav.disabled,
@@ -20745,7 +20746,7 @@ a.logo {
 
 a.logo img {
   display: inline-block;
-  max-width: 60px;
+  max-width: 50px;
 }
 
 a.logo .logo-text {
