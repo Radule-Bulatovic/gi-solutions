@@ -22943,3 +22943,7 @@ button.gm-ui-hover-effect {
     height: 100%;
   }
 }
+
+.medicine-text {
+  line-height: 1.5;
+}
