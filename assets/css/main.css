@@ -16182,10 +16182,21 @@ filters
 }
 
 #box_wrapper > #steps {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 32%);
-  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(17, 21, 30, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media (min-width: 1300px) {
+  #box_wrapper > #steps {
+    background: unset;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 32%);
+    width: 100%;
+  }
 }
 
 .custom-div {
@@ -22921,7 +22932,7 @@ button.gm-ui-hover-effect {
   }
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   #box_wrapper
     > section:nth-child(2)
     > div
@@ -22942,7 +22953,7 @@ button.gm-ui-hover-effect {
     > video {
     height: 100%;
   }
-}
+} */
 
 .medicine-text {
   line-height: 1.5;
@@ -22954,4 +22965,23 @@ button.gm-ui-hover-effect {
 
 .myVideo-map {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .page_slider .myVideo {
+    width: 140%;
+    margin-left: -20%;
+    bottom: 1.5rem;
+    top: unset;
+  }
+}
+
+@media (min-width: 1000px) {
+  .page_slider .myVideo {
+    width: 100%;
+  }
+}
+
+.cover-image.flex-active-slide {
+  background: #303849 !important;
 }
