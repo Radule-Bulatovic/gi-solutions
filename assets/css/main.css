@@ -22982,6 +22982,6 @@ button.gm-ui-hover-effect {
   }
 }
 
-.cover-image.flex-active-slide:not(.contact) {
+.cover-image.flex-active-slide:not(.contact, .important-image) {
   background: #303849 !important;
 }
