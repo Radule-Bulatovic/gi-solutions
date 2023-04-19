@@ -23000,3 +23000,12 @@ button.gm-ui-hover-effect {
   > a {
   font-size: 1.375rem;
 }
+
+#box_wrapper > section:nth-child(2):hover {
+  cursor: url(../images/logo.png), auto;
+}
+
+.animated-dots {
+  background: url(../img/world-map.jpg);
+  background-size: contain;
+}
