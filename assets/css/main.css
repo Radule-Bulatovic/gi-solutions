@@ -22985,3 +22985,18 @@ button.gm-ui-hover-effect {
 .cover-image.flex-active-slide:not(.contact, .important-image) {
   background: #303849 !important;
 }
+
+#box_wrapper
+  > div
+  > div
+  > header
+  > div
+  > div
+  > div.col-md-7.col-1
+  > div
+  > nav
+  > ul
+  > li
+  > a {
+  font-size: 1.375rem;
+}
