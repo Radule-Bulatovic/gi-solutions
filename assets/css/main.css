@@ -23009,3 +23009,11 @@ button.gm-ui-hover-effect {
   background: url(../img/world-map.jpg);
   background-size: contain;
 }
+
+@media (max-width: 500px){
+
+  .responsive-text {
+    font-size: 1.25rem;
+  }
+}
+  
