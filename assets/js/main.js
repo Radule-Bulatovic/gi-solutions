@@ -1875,14 +1875,17 @@
     s.wrap('<div class="select_container"></div>');
   });
 
-  document
-    .querySelector("#box_wrapper > section:nth-child(2)")
-    .addEventListener("click", () => {
-      let video = document.querySelector(
-        "#box_wrapper > section:nth-child(2) > div > ul > li > video"
-      );
-      if (video) video.muted = !video.muted;
-    });
+  let video = document.querySelector(
+    "#box_wrapper > section:nth-child(2) > div > ul > li > video"
+  );
+  if (video) {
+    document
+      .querySelector("#box_wrapper > section:nth-child(2)")
+      .addEventListener("click", () => {
+        if (video.ended) return video.play();
+        video.muted = !video.muted;
+      });
+  }
 
   var canvas = document.querySelector(".animated-dots");
   if (canvas) {
