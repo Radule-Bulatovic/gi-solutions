@@ -23002,7 +23002,7 @@ button.gm-ui-hover-effect {
 }
 
 .custom-cursor:hover {
-  cursor: url(../images/logo.png), auto;
+  cursor: url(../img/sound-waves.png), auto;
 }
 
 .animated-dots {
@@ -23010,10 +23010,8 @@ button.gm-ui-hover-effect {
   background-size: contain;
 }
 
-@media (max-width: 500px){
-
+@media (max-width: 500px) {
   .responsive-text {
     font-size: 1.25rem;
   }
 }
-  
