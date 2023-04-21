@@ -22408,7 +22408,7 @@ h6.entry-title {
 */
 #box_wrapper > section,
 #box_wrapper > div > section {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media (min-width: 768px) {
