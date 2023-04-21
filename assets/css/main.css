@@ -16388,8 +16388,7 @@ aside > * + * {
 
 .text-center .widget-title.next-image-background + img {
   left: 50%;
-  transform: translateX(-50%);
-  top: 20%;
+  transform: translate(-50%, -30%);
   height: 150px;
 }
 
