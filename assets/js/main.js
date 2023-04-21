@@ -1289,7 +1289,7 @@
 
         $carousel
           .owlCarousel({
-            autoplayTimeout: 5000,
+            autoplayTimeout: 3000,
             loop: loop,
             margin: margin,
             nav: nav,
