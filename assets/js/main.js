@@ -16,7 +16,7 @@
       var $thisMenu = $(this);
       var $menuWraper = $thisMenu.closest(".top-nav");
       $menuWraper.attr("style", "");
-      if (windowWidth > 1199) {
+      if (windowWidth > 800) {
         //grab all main menu first level items
         var $menuLis = $menuWraper.find(".sf-menu > li");
         $menuLis.removeClass("sf-xl-hidden");
