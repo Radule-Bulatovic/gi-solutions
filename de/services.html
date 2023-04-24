@@ -72,7 +72,6 @@
     <!-- eof .modal -->
 
     <!-- wrappers for visual page editor and boxed version of template -->
-
     <div id="canvas">
       <div id="box_wrapper">
         <!-- template sections -->
@@ -113,26 +112,29 @@
                           href="https://www.facebook.com/globalindustrialsolutionsdoo/"
                           class="fa fa-facebook"
                           title="facebook"
+                          target="_blank"
                         ></a>
                         <a
                           href="https://www.linkedin.com/company/global-industrial-solutions-doo/about/"
                           class="fa fa-linkedin"
                           title="linkedin"
+                          target="_blank"
                         ></a>
                         <a
                           href="https://www.instagram.com/global.industrial.solutions/"
                           class="fa fa-instagram"
                           title="instagram"
+                          target="_blank"
                         ></a>
-                        <a href="../de/outsourcing.html">
+                        <a href="../me/services.html">
                           <img
-                            src="../assets/flags/Flag_of_Germany.svg"
+                            src="../assets/flags/Flag_of_Montenegro.svg"
                             height="16"
                             alt="File:Flag of Germany.svg"
                             width="32"
                           />
                         </a>
-                        <a href="../outsourcing.html">
+                        <a href="../services.html">
                           <img
                             src="../assets/flags/Flag_of_the_United_Kingdom.svg"
                             alt="File:Flag of the United Kingdom.svg"
@@ -170,28 +172,25 @@
                     <nav class="top-nav">
                       <ul class="nav sf-menu">
                         <li>
-                          <a href="index.html">Početna</a>
+                          <a href="index.html">Startseite</a>
                         </li>
 
                         <li>
-                          <a href="services.html">Usluge</a>
+                          <a href="services.html">Dienstleistungen</a>
                         </li>
 
                         <li>
-                          <a href="automation.html">Automatizacija</a>
+                          <a href="automation.html">Automatisierung</a>
                         </li>
 
                         <!-- <li>
-                          <a href="index.html#quality">Kvalitet</a>
+                          <a href="index.html#quality">Qualität</a>
                         </li> -->
-
                         <li>
                           <a href="outsourcing.html">Offshoring</a>
                         </li>
 
-                        <li>
-                          <a href="locations.html">Lokacije</a>
-                        </li>
+                        <li><a href="locations.html">Standorte</a></li>
 
                         <li>
                           <a href="contact.html">Kontakt</a>
@@ -209,14 +208,13 @@
           </header>
         </div>
 
-        <section class="page_slider ds text-center">
-          <div class="flexslider" data-nav="false" data-dots="true">
+        <section id="services" class="page_slider ds text-center">
+          <div class="flexslider" data-nav="false">
             <ul class="slides">
-              <li class="cover-image">
-                <span class="flexslider-overlay"></span>
-                <img src="../assets/images/slide03.jpg" alt="" />
-                <canvas class="myVideo animated-dots"></canvas>
-                <div class="container">
+              <li class="cover-image important-image custom-page-slider">
+                <span class="flexslider-overlay darken-overlay"></span>
+                <img src="../assets/images/laserwallpaper.avif" alt="" />
+                <div class="container" id="usluge">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="intro_layers_wrapper">
@@ -224,16 +222,16 @@
                           <div class="divider-70"></div>
                           <div class="intro_layer" data-animation="fadeInDown">
                             <div class="d-inline-block">
-                              <h2 class="intro_shadow_word">Outsourcing</h2>
-
                               <h2 class="intro_featured_word">
-                                Offshoring / Outsourcing
+                                UNSERE
+                                <span class="color-main">DIENSTLEISTUNGEN</span>
                               </h2>
                             </div>
                           </div>
                           <div class="intro_layer" data-animation="fadeInDown">
                             <p class="intro_after_featured_word">
-                              Ubrzajte svoje poslovanje
+                              BREITES SPEKTRUM AN
+                              <span class="color-main">DIENSTLEISTUNGEN</span>
                             </p>
                           </div>
 
@@ -241,7 +239,7 @@
                             class="intro_layer scroll-link intro-arrow animate"
                             data-animation="floating"
                           >
-                            <a href="#steps"
+                            <a href="#steps" src="videos"
                               ><i
                                 class="ico ico-arrow-down color-main fs-30"
                               ></i
@@ -260,7 +258,210 @@
               </li>
             </ul>
           </div>
-          <!-- eof flexslider -->
+        </section>
+        <section
+          id="services"
+          class="ds bs s-pt-60 s-pb-30 s-pt-lg-100 s-pb-lg-70 s-pt-xl-150 s-pb-xl-110 s-overlay s-parallax c-mb-10 c-gutter-60 item-steps service-bg"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="divider-100 divider-lg-100"></div>
+
+              <div class="col-12 text-center">
+                <h3 class="big special-heading">
+                  <span class="shadow-heading">DIENSTLEISTUNGEN</span>
+                </h3>
+              </div>
+              <div class="divider-100"></div>
+              <div class="divider-100"></div>
+              <div class="divider-100"></div>
+            </div>
+            <!-- .row* -->
+          </div>
+        </section>
+
+        <section
+          class="text-center card-section c-gutter-50 overflow-visible"
+          style="padding-top: 3rem"
+          style="padding-top: 3rem !important"
+        >
+          <div class="custom-div">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div
+                    class="owl-carousel"
+                    data-margin="60"
+                    data-responsive-lg="3"
+                    data-responsive-md="2"
+                    data-responsive-sm="2"
+                    data-responsive-xs="1"
+                    data-nav="false"
+                    data-autoplay="true"
+                    data-loop="true"
+                  >
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/lasercutting.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Laserschneiden </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/watercutting.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Wasserstrahlen</span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/bending.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Abkanten </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/welding.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Schweißen </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/cnc.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">CNC-Bearbeitung </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/powdercoating.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Pulver-beschichten </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          src="../assets/videos/assembling.mp4"
+                          type="video/mp4"
+                        ></video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Montage </span>
+                        </h4>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="item-media">
+                        <video
+                          loop
+                          autoplay
+                          muted
+                          class="myVideo-map"
+                          playsinline
+                          height="202"
+                          style="object-fit: cover"
+                        >
+                          <source
+                            src="../assets/videos/outsourcing.mp4"
+                            src="../assets/videos/outsourcing.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <div class="card-body box-shadow ls">
+                        <h4 class="card-title" style="min-height: 2em">
+                          <span class="color-main">Logistik </span>
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section
@@ -272,106 +473,59 @@
                 <div class="col-12 col-lg-7">
                   <div class="images-wrap-item img-left">
                     <img
-                      src="../assets/images/outsourcing/expansion.jpg"
+                      src="../assets/images/outsourcing/transport.png"
                       alt=""
                     />
                     <img
                       class="images-back"
-                      src="../assets/images/service/02.jpg"
+                      src="../assets/images/service/06.jpg"
                       alt=""
                     />
                   </div>
                 </div>
                 <div class="col-12 col-lg-5">
                   <div class="item-content">
-                    <div class="divider-40 divider-xl-105"></div>
+                    <div class="divider-40 divider-xl-165"></div>
                     <h3 class="big service-title special-heading">
-                      <span class="shadow-heading">Usluge</span>
-                      Usluge
+                      <span class="shadow-heading">LÖSUNGEN</span>
+                      <span class="color-main">MAßGESCHNEIDERTE </span> LÖSUNGEN
                     </h3>
                     <p class="special-heading subheading with-line">
-                      Poslovno proširenje
+                      ERFAHRENES <span class="color-main">TEAM</span> FÜR
+                      <span class="color-main">TOP-ERGEBNISSE</span>
                     </p>
                     <div class="divider-30 divider-xl-65"></div>
                     <div class="entry-content">
                       <p>
-                        Specijalizujemo se za pružanje sveobuhvatne podrške
-                        preduzećima koja žele da prošire svoje poslovanje u ovom
-                        brzo rastućem regionu. <br /><br />
-                        Nudimo širok spektar usluga, uključujući registraciju
-                        firme, pravno i finansijsko savetovanje, pomoć u
-                        uspostavljanju svih administrativnih radova i mnogo
-                        više.
-                      </p>
-                      <h4 class="mt-30 mt-lg-40">
-                        naše <span class="color-main">usluge</span>
-                      </h4>
-                      <ul class="mt-25 list-styled">
-                        <li>Registracija firme</li>
-                        <li>Pravno i finansijsko savetovanje</li>
-                        <li>Pomoć u uspostavljanju administrativnih radova</li>
-                        <li>Ostale usluge</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="divider-55 divider-lg-95 divider-xl-150"></div>
-            <div class="service-item horizontal-item">
-              <div class="row align-items-center c-gutter-10">
-                <div class="col-12 col-lg-5 order-2 order-lg-1">
-                  <div class="item-content">
-                    <div class="divider-40 divider-xl-140"></div>
-                    <h3 class="big service-title special-heading">
-                      <span class="shadow-heading">Ekspertiza</span>
-                      <span class="color-main">Ekspertiza </span>i podrška
-                    </h3>
-                    <p class="special-heading subheading with-line">
-                      Iskusni tim za uspjeh
-                    </p>
-                    <div class="divider-30 divider-xl-65"></div>
-                    <div class="entry-content">
-                      <p>
-                        Naš tim čine stručnjaci sa bogatim iskustvom u
-                        različitim industrijama, uključujući IT, finansije i
-                        proizvodnju. <br /><br />
-                        U našoj kompaniji ponosimo se na pružanje izuzetne
-                        vrednosti i izvanredne korisničke podrške. <br /><br />
-                        Naš cilj je da vam pomognemo da postignete uspeh u
-                        Istočnoj Evropi i dalje i da smo posvećeni podržavanju
-                        vas u svakom koraku. <br /><br />
-                        Bilo da ste mala startap firma ili velika
-                        multinacionalna korporacija, mi imamo ekspertizu i
-                        resurse da vam pomognemo u ostvarenju vaših ciljeva.
+                        Bei GI Solutions verstehen wir, dass jedes Projekt
+                        einzigartig ist und eine maßgeschneiderte Lösung
+                        erfordert, um optimale Ergebnisse zu erzielen. Deshalb
+                        bieten wir ein breites Spektrum an Design- und
+                        Engineering-Dienstleistungen, um Ihnen zu helfen, Ihre
+                        individuelle Vision umzusetzen.
                         <br /><br />
+
+                        Unser erfahrenes Team arbeitet eng mit Ihnen zusammen,
+                        um Ihre spezifischen Anforderungen zu verstehen und eine
+                        Lösung zu entwickeln, die Ihren genauen Bedürfnissen
+                        entspricht. Ob Sie maßgeschneiderte Werkzeuge, spezielle
+                        Materialien oder komplexe Design- und
+                        Engineering-Leistungen benötigen - wir haben die
+                        Kompetenz und Erfahrung, um eine Lösung zu liefern, die
+                        Ihre Erwartungen übertrifft.
+                        <br /><br />
+
+                        Mit unserem Fokus auf Qualität und Präzision können Sie
+                        sich darauf verlassen, dass wir zuverlässige,
+                        kosteneffektive und innovative maßgeschneiderte
+                        Dienstleistungen für Ihre anspruchsvollsten Projekte
+                        liefern.
                       </p>
-                      <h4 class="mt-30 mt-lg-40">
-                        naše <span class="color-main">usluge</span>
-                      </h4>
-                      <ul class="mt-25 list-styled">
-                        <li>IT usluge</li>
-                        <li>Finansijske usluge</li>
-                        <li>Usluge u proizvodnji</li>
-                        <li>Poslovna ekspertiza</li>
-                      </ul>
                     </div>
-                  </div>
-                  <div class="divider-35"></div>
-                </div>
-                <div class="col-12 col-lg-7 text-lg-right order-1 order-lg-2">
-                  <div class="images-wrap-item img-right">
-                    <img src="../assets/images/outsourcing/usluge.jpg" alt="" />
-                    <img
-                      class="images-back"
-                      src="../assets/images/service/04.jpg"
-                      alt=""
-                    />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="divider-20 divider-lg-95 divider-xl-150"></div>
           </div>
         </section>
 
@@ -391,35 +545,40 @@
                     </h3>
                     <img src="../assets/images/logo.png" alt="" />
                     <p>
-                      Global Industrial Solutions je osnovan 2016. godine sa
-                      vizijom da olakša nesmetano autsorsovanje na istoku
-                      Evrope. Danas sa ponosom zapošljavamo tim od preko 100
-                      visokokvalifikovanih i motivisanih osoba koje su posvećene
-                      vašem uspjehu. Razumijemo da je naš uspjeh povezan sa
-                      vašim uspjehom, zbog čega smo otvorili filijale u Crnoj
-                      Gori, Švajcarskoj i Srbiji da bismo pružili izuzetne
-                      usluge našim klijentima na njihovim lokacijama. Možete
-                      biti sigurni da se potpuno angažujemo da vam pružimo
-                      izuzetne usluge koje zadovoljavaju i prevazilaze vaša
-                      očekivanja.
+                      Im Jahr 2016 wurde Global Industrial Solutions mit der
+                      Vision gegründet, ein nahtloses Outsourcing nach Osteuropa
+                      zu ermöglichen. Heute beschäftigen wir stolz ein Team von
+                      über 100 hochqualifizierten und motivierten Personen, die
+                      sich Ihrem Erfolg verschrieben haben. Wir verstehen, dass
+                      unser Erfolg eng mit Ihrem Erfolg verknüpft ist. Daher
+                      haben wir Niederlassungen in Montenegro, der Schweiz und
+                      Serbien gegründet, um unseren Kunden herausragende
+                      Dienstleistungen direkt an deren Standorten anzubieten.
+                      Sie können sich darauf verlassen, dass wir uns voll und
+                      ganz dafür engagieren, Ihnen herausragende
+                      Dienstleistungen anzubieten, die Ihre Erwartungen erfüllen
+                      und übertreffen werden.
                     </p>
                   </div>
 
                   <span class="social-icons">
                     <a
-                      href="https://facebook.com/"
+                      href="https://www.facebook.com/globalindustrialsolutionsdoo/"
                       class="fa fa-facebook"
                       title="facebook"
+                      target="_blank"
                     ></a>
                     <a
-                      href="https://linkedin.com/"
+                      href="https://www.linkedin.com/company/global-industrial-solutions-doo/about/"
                       class="fa fa-linkedin"
                       title="linkedin"
+                      target="_blank"
                     ></a>
                     <a
-                      href="https://instagram.com/"
+                      href="https://www.instagram.com/global.industrial.solutions/"
                       class="fa fa-instagram"
                       title="instagram"
+                      target="_blank"
                     ></a>
                   </span>
                 </div>
@@ -427,7 +586,7 @@
 
               <div class="col-lg-6 animate" data-animation="fadeInUp">
                 <div class="widget widget_working_hours">
-                  <h3 class="text-center">Kontakt</h3>
+                  <h3 class="text-center">Kontakte</h3>
                   <ul class="list-bordered">
                     <li>
                       <a
