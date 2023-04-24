@@ -1993,5 +1993,69 @@
     tick();
   }
 
+  // function to check if an element is in view
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  // function to load image or video
+  function loadMedia(element) {
+    var dataSrc = element.getAttribute("data-src");
+    var dataType = element.getAttribute("data-type");
+    if (dataType === "videos") {
+      Array.from(document.querySelectorAll("video[data-src]")).forEach((e) => {
+        e.src = e.dataset.src;
+        e.onLoad = () => {
+          e.removeAttribute("data-src");
+          e.removeAttribute("data-type");
+        };
+      });
+      return;
+    }
+    if (dataType === "image") {
+      var img = new Image();
+      img.src = dataSrc;
+      img.onload = function () {
+        element.setAttribute("src", dataSrc);
+        element.removeAttribute("data-src");
+        element.removeAttribute("data-type");
+      };
+      return;
+    }
+    if (dataType === "script") {
+      const script = document.createElement("script");
+      script.src = element.dataset.src;
+      document.body.appendChild(script);
+      return;
+    }
+  }
+
+  // function to handle scroll event
+  function handleScroll() {
+    let loaded = [];
+    return () => {
+      var elements = document.querySelectorAll("[data-src]");
+      for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        if (
+          isElementInViewport(element) &&
+          !loaded.includes(element.dataset.src)
+        ) {
+          loaded.push(element.dataset.src);
+          loadMedia(element);
+        }
+      }
+    };
+  }
+
+  window.addEventListener("scroll", handleScroll());
+
   //end of IIFE function
 })(jQuery);

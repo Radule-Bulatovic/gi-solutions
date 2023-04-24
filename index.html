@@ -21,26 +21,26 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../assets/css/animations.css" />
-    <link rel="stylesheet" href="../assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
     <link
       rel="stylesheet"
-      href="../assets/css/main.css"
+      href="./assets/css/main.css"
       class="color-switcher-link"
     />
     <link
       rel="stylesheet"
-      href="../assets/css/shop.css"
+      href="./assets/css/shop.css"
       class="color-switcher-link"
     />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-    <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="./assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
     <!--[if lt IE 9]>
-      <script src="../assets/js/vendor/html5shiv.min.js"></script>
-      <script src="../assets/js/vendor/respond.min.js"></script>
-      <script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+      <script src="./assets/js/vendor/html5shiv.min.js"></script>
+      <script src="./assets/js/vendor/respond.min.js"></script>
+      <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
     <![endif]-->
   </head>
 
@@ -128,7 +128,7 @@
                         ></a>
                         <a href="./me/index.html">
                           <img
-                            src="../assets/flags/Flag_of_Montenegro.svg"
+                            src="./assets/flags/Flag_of_Montenegro.svg"
                             height="16"
                             alt="File:Flag of the United Kingdom.svg"
                             width="32"
@@ -136,7 +136,7 @@
                         </a>
                         <a href="./de/index.html">
                           <img
-                            src="../assets/flags/Flag_of_Germany.svg"
+                            src="./assets/flags/Flag_of_Germany.svg"
                             alt="File:Flag of Germany.svg"
                             height="16"
                             width="32"
@@ -160,7 +160,7 @@
               <div class="row align-items-center">
                 <div class="col-md-5 col-11">
                   <a href="./" class="logo">
-                    <img src="../assets/images/logo.png" alt="" />
+                    <img src="./assets/images/logo.png" alt="" />
                     <h4 class="logo-text text-uppercase fw-400">
                       Global Industrial Solutions
                     </h4>
@@ -214,14 +214,18 @@
             <ul class="slides">
               <li class="cover-image">
                 <span class="flexslider-overlay"></span>
-                <img src="./assets/images/slide03.jpg" alt="" />
-                <video muted="" class="myVideo" autoplay playsinline>
-                  <source
-                    src="./assets/videos/promo.m4v"
-                    data-src="./assets/videos/promo.m4v"
-                    type="video/mp4"
-                  />
-                </video>
+                <img
+                  type="image/jpg"
+                  src="./assets/images/slide03.jpg"
+                  alt=""
+                />
+                <video
+                  muted=""
+                  class="myVideo"
+                  autoplay
+                  playsinline
+                  src="./assets/videos/promo.webm"
+                ></video>
               </li>
             </ul>
           </div>
@@ -232,7 +236,7 @@
             <ul class="slides">
               <li class="cover-image custom-page-slider important-image">
                 <span class="flexslider-overlay darken-overlay"></span>
-                <img src="../assets/images/laserwallpaper.jpg" alt="" />
+                <img src="./assets/images/laserwallpaper.avif" alt="" />
                 <div class="container" id="usluge">
                   <div class="row">
                     <div class="col-md-12">
@@ -282,6 +286,8 @@
         <section
           class="text-center card-section c-gutter-50 overflow-visible"
           style="padding-top: 3rem"
+          data-src="videos"
+          data-type="videos"
         >
           <div class="custom-div">
             <div class="container">
@@ -306,13 +312,9 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/lasercutting.mp4"
-                            data-src="../assets/videos/lasercutting.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/lasercutting.webm"
+                          data-type="video"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -329,12 +331,12 @@
                           muted
                           class="myVideo-map"
                           playsinline
+                          data-src="./assets/videos/watercutting.webm"
+                          type="video/webm"
+                          data-type="video"
                         >
-                          <source
-                            src="../assets/videos/watercutting.mp4"
-                            data-src="../assets/videos/watercutting.mp4"
-                            type="video/mp4"
-                          />
+                          <!-- data-src="./assets/videos/watercutting.webm" -->
+                          <source />
                         </video>
                       </div>
                       <div class="card-body box-shadow ls">
@@ -352,13 +354,10 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/bending.mp4"
-                            data-src="../assets/videos/bending.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/bending.webm"
+                          type="video/webm"
+                          data-type="video"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -375,13 +374,10 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/welding.mp4"
-                            data-src="../assets/videos/welding.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/welding.webm"
+                          type="video/webm"
+                          data-type="video"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -398,13 +394,10 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/cnc.mp4"
-                            data-src="../assets/videos/cnc.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/cnc.webm"
+                          type="video/webm"
+                          data-type="video"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -421,13 +414,10 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/powdercoating.mp4"
-                            data-src="../assets/videos/powdercoating.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/powdercoating.webm"
+                          data-type="video"
+                          type="video/webm"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -444,13 +434,10 @@
                           muted
                           class="myVideo-map"
                           playsinline
-                        >
-                          <source
-                            src="../assets/videos/assembling.mp4"
-                            data-src="../assets/videos/assembling.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/assembling.webm"
+                          data-type="video"
+                          type="video/webm"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -469,13 +456,10 @@
                           playsinline
                           height="202"
                           style="object-fit: cover"
-                        >
-                          <source
-                            src="../assets/videos/outsourcing.m4v"
-                            data-src="../assets/videos/outsourcing.m4v"
-                            type="video/mp4"
-                          />
-                        </video>
+                          data-src="./assets/videos/outsourcing.webm"
+                          type="video/webm"
+                          data-type="video"
+                        ></video>
                       </div>
                       <div class="card-body box-shadow ls">
                         <h4 class="card-title" style="min-height: 2em">
@@ -597,7 +581,7 @@
         <section
           id="locations"
           class="ds bs s-pt-60 s-pb-30 s-pt-lg-100 s-pb-lg-70 s-pt-xl-150 s-pb-xl-110 s-overlay s-parallax c-mb-10 c-gutter-60 item-steps service-bg"
-          style="background-image: url(./assets/img/certificates/pxfuel.jpg)"
+          style="background-image: url(./assets/images/pxfuel.avif)"
         >
           <div class="container">
             <div class="row">
@@ -612,7 +596,11 @@
               </div>
               <div class="divider-20 divider-lg-30"></div>
 
-              <img src="./assets/videos/map.gif" alt="" />
+              <div
+                id="lottie"
+                data-type="script"
+                data-src="./assets/js/map.js"
+              ></div>
             </div>
           </div>
         </section>
@@ -645,6 +633,7 @@
                   <div class="fs-50">
                     <img
                       src="./assets/flags/Flag_of_Montenegro.svg.png"
+                      type="image"
                       height="32"
                       alt="File:Flag_of_Montenegro.svg.png"
                       width="84"
@@ -673,6 +662,7 @@
                   <div class="fs-50">
                     <img
                       src="./assets/flags/Flag_of_Serbia.svg"
+                      type="image"
                       height="32"
                       alt="File:Flag_of_Serbia.svg"
                       width="64"
@@ -703,6 +693,7 @@
                   <div class="fs-50">
                     <img
                       src="./assets/flags/Civil_Ensign_of_Switzerland.svg.png"
+                      type="image"
                       height="32"
                       alt="File:Civil_Ensign_of_Switzerland.svg.png"
                       width="64"
@@ -745,7 +736,7 @@
                     <h3 class="widget-title next-image-background">
                       Global Industrial Solutions
                     </h3>
-                    <img src="../assets/images/logo.png" alt="" />
+                    <img type="image" src="./assets/images/logo.png" alt="" />
                     <p>
                       In 2016, Global Industrial Solutions was founded with the
                       mission to facilitate seamless outsourcing to Eastern
@@ -859,7 +850,7 @@
     </div>
     <!-- eof #canvas -->
 
-    <script src="../assets/js/compressed.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/compressed.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
