@@ -40,6 +40,7 @@
       defer
     ></script>
     <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!--[if lt IE 9]>
       <script src="../assets/js/vendor/html5shiv.min.js"></script>
@@ -387,7 +388,10 @@
                           type="submit"
                           id="contact_form_submit"
                           name="contact_submit"
-                          class="btn btn-maincolor"
+                          class="btn btn-maincolor g-recaptcha"
+                          data-sitekey="6Lc0cLclAAAAANuLjyvzRaBwEMIojAPFFuCpJR7K"
+                          data-callback="onSubmit"
+                          data-action="submit"
                         >
                           Send message
                         </button>

@@ -23019,3 +23019,7 @@ button.gm-ui-hover-effect {
 .social-icons img {
   height: 1rem;
 }
+
+.grecaptcha-badge {
+  bottom: 5rem !important;
+}
