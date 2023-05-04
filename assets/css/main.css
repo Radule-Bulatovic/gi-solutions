@@ -23023,3 +23023,24 @@ button.gm-ui-hover-effect {
 .grecaptcha-badge {
   bottom: 5rem !important;
 }
+
+.certificate-bg {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}
+
+.certificate-responsive {
+  --dim: 80px;
+  width: var(--dim);
+  height: var(--dim);
+}
+
+@media (min-width: 1000px) {
+  .certificate-responsive {
+    --dim: 100px;
+  }
+}
