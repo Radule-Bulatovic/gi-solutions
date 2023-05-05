@@ -23034,7 +23034,7 @@ button.gm-ui-hover-effect {
 }
 
 .certificate-responsive {
-  --dim: 80px;
+  --dim: 70px;
   width: var(--dim);
   height: var(--dim);
 }
