@@ -23034,13 +23034,13 @@ button.gm-ui-hover-effect {
 }
 
 .certificate-responsive {
-  --dim: 70px;
+  --dim: 60px;
   width: var(--dim);
   height: var(--dim);
 }
 
 @media (min-width: 1000px) {
   .certificate-responsive {
-    --dim: 100px;
+    --dim: 80px;
   }
 }
