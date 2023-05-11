@@ -23044,3 +23044,17 @@ button.gm-ui-hover-effect {
     --dim: 80px;
   }
 }
+
+#box_wrapper
+  > section.ls.ms.s-pt-60.s-pb-55.s-py-lg-100.s-py-xl-150.c-gutter-30
+  > div
+  > div
+  > div
+  > div.col-12.col-lg-5.order-2.order-lg-1
+  > div.item-content
+  > div.entry-content
+  > ul
+  > li {
+  text-indent: -24px;
+  margin-left: 24px;
+}
